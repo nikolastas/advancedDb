@@ -2,14 +2,15 @@
 
 download_spark () {
 	cd ~
-	wget https://archive.apache.org/dist/spark/spark-2.4.4/spark-2.4.4-bin-hadoop2.7.tgz
-	tar -xzf spark-2.4.4-bin-hadoop2.7.tgz
-	
+#	wget https://archive.apache.org/dist/spark/spark-3.1.3/spark-3.1.3-bin-hadoop2.7.tgz
+#	tar -xzf spark-3.1.3-bin-hadoop2.7.tgz
+wget https://downloads.apache.org/spark/spark-3.1.3/spark-3.1.3-bin-hadoop2.7.tgz
+tar -xzf spark-3.1.3-bin-hadoop2.7.tgz
 }
 
 configure_spark () {
 
-	echo "export SPARK_HOME=/home/user/spark-2.4.4-bin-hadoop2.7" >> ~/.bashrc
+	echo "export SPARK_HOME=/home/user/spark-3.1.3-bin-hadoop2.7" >> ~/.bashrc
 	echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
 	echo "export PYSPARK_PYTHON=python3" >> ~/.bashrc
 	echo "alias start-all.sh='\$SPARK_HOME/sbin/start-all.sh'" >> ~/.bashrc
@@ -17,11 +18,11 @@ configure_spark () {
 
 	source ~/.bashrc
 
-	cd /home/user/spark-2.4.4-bin-hadoop2.7/conf
+	cd /home/user/spark-3.1.3-bin-hadoop2.7/conf
 
 	cp spark-env.sh.template spark-env.sh
 	echo "SPARK_WORKER_CORES=2" >> spark-env.sh
-	echo "SPARK_WORKER_MEMORY=3g" >> spark-env.sh
+	echo "SPARK_WORKER_MEMORY=4g" >> spark-env.sh
 
 	cp spark-defaults.conf.template spark-defaults.conf
 	echo "spark.master\t\tspark://master:7077" >> spark-defaults.conf
