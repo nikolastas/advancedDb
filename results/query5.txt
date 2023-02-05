@@ -1,5 +1,5 @@
 Queyry 5:
-Number of executions: 1 
+Number of executions: 10
 Results: [
 Row(trip_month=1, trip_day=9, tip_percentage=45.78674775487207), 
 Row(trip_month=1, trip_day=31, tip_percentage=43.93563580770273), 

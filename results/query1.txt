@@ -1,4 +1,4 @@
 Queyry 1:
-Number of executions: 1 
+Number of executions: 10 
 Results: [Row(VendorID=2, tpep_pickup_datetime=datetime.datetime(2022, 3, 17, 12, 27, 47), tpep_dropoff_datetime=datetime.datetime(2022, 3, 17, 12, 27, 58), passenger_count=1.0, trip_distance=0.0, RatecodeID=1.0, store_and_fwd_flag='N', PULocationID=12, DOLocationID=12, payment_type=1, fare_amount=2.5, extra=0.0, mta_tax=0.5, tip_amount=40.0, tolls_amount=0.0, improvement_surcharge=0.3, total_amount=45.8, congestion_surcharge=2.5, airport_fee=0.0, LocationID=12, Borough='Manhattan', Zone='Battery Park', service_zone='Yellow Zone')]
-Average Time:8.395004987716675
+Average Time: 4.533203506469727

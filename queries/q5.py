@@ -2,7 +2,7 @@ from load import *
 import time
 
 
-number_of_exec = 1
+number_of_exec = 10
 total_time = 0
 for i in range(number_of_exec) :
     start = time.time()
@@ -39,7 +39,7 @@ averageTimeForQuery5 = total_time / number_of_exec
 print(top5DaysPerMonthInTipsPercResult)
 print('Average Time: ',averageTimeForQuery5)
 
-with open('./results_for_1_worker/query5.txt', 'w') as f:
+with open('./results/query5.txt', 'w') as f:
     f.write("Queyry 5:\n")
     f.write("Number of executions: {} \nResults: {}\nAverage Time:{}".format(number_of_exec, top5DaysPerMonthInTipsPercResult, averageTimeForQuery5))
     f.close()

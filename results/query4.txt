@@ -1,7 +1,7 @@
 Queyry 4:
-Number of executions: 1 
+Number of executions: 10 
 Results: [
-    Row(day_of_week=1, hour_of_day=0, num_clients=1.5299456507188562), 
+Row(day_of_week=1, hour_of_day=0, num_clients=1.5299456507188562), 
 Row(day_of_week=1, hour_of_day=1, num_clients=1.527838567375201), 
 Row(day_of_week=1, hour_of_day=2, num_clients=1.5080726185191242), 
 Row(day_of_week=2, hour_of_day=0, num_clients=1.4679887711672552), 
@@ -22,4 +22,4 @@ Row(day_of_week=6, hour_of_day=2, num_clients=1.4236394379113688),
 Row(day_of_week=7, hour_of_day=23, num_clients=1.522606766277207), 
 Row(day_of_week=7, hour_of_day=22, num_clients=1.5068176194011382), 
 Row(day_of_week=7, hour_of_day=0, num_clients=1.4993154284898547)]
-Average Time:14.980561256408691
+Average Time:11.0182198762893675

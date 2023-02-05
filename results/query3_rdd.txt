@@ -1,5 +1,5 @@
 Queyry 3:
-Number of executions: 1 
+Number of executions: 3
 Results: [
 (datetime.datetime(2022, 5, 16, 0, 0), (7.906694182348757, 22.771948777963715)), 
 (datetime.datetime(2022, 2, 1, 0, 0), (6.248888338463885, 19.491979067237448)), 

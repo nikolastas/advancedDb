@@ -1,5 +1,5 @@
 Queyry 3:
-Number of executions: 1 
+Number of executions: 10
 Results: [
 Row(avg_trip_distance=3.924531002558172, avg_trip_cost=21.80540260689235, period=datetime.datetime(2022, 7, 1, 0, 0)), 
 Row(avg_trip_distance=6.174138574511356, avg_trip_cost=22.331380641103525, period=datetime.datetime(2022, 6, 16, 0, 0)), 
@@ -14,4 +14,4 @@ Row(avg_trip_distance=5.849460516243601, avg_trip_cost=20.18769180439039, period
 Row(avg_trip_distance=6.24888833846387, avg_trip_cost=19.491979067238603, period=datetime.datetime(2022, 2, 1, 0, 0)), 
 Row(avg_trip_distance=5.097880367275346, avg_trip_cost=19.14882164234129, period=datetime.datetime(2022, 1, 16, 0, 0)), 
 Row(avg_trip_distance=5.576410377852007, avg_trip_cost=19.903702637879007, period=datetime.datetime(2022, 1, 1, 0, 0))]
-Average Time:24.75879693031311
+Average Time:21.75879693031311

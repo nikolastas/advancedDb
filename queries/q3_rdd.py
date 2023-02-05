@@ -11,7 +11,7 @@ def handleGroupValues(x,y):
     return (x[0]+y[0], x[1]+y[1], x[2]+y[2])
 
 
-number_of_exec = 1
+number_of_exec = 3
 total_time = 0
 for i in range(number_of_exec) :
     start = time.time()
