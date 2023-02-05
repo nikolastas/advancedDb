@@ -1,0 +1,25 @@
+Queyry 4:
+Number of executions: 1 
+Results: [
+    Row(day_of_week=1, hour_of_day=0, num_clients=1.5299456507188562), 
+Row(day_of_week=1, hour_of_day=1, num_clients=1.527838567375201), 
+Row(day_of_week=1, hour_of_day=2, num_clients=1.5080726185191242), 
+Row(day_of_week=2, hour_of_day=0, num_clients=1.4679887711672552), 
+Row(day_of_week=2, hour_of_day=1, num_clients=1.4442867916810471), 
+Row(day_of_week=2, hour_of_day=2, num_clients=1.4231993989051486), 
+Row(day_of_week=3, hour_of_day=0, num_clients=1.4200313882151518), 
+Row(day_of_week=3, hour_of_day=1, num_clients=1.4175124740006593), 
+Row(day_of_week=3, hour_of_day=2, num_clients=1.4104520814693964), 
+Row(day_of_week=4, hour_of_day=1, num_clients=1.4088480212656305), 
+Row(day_of_week=4, hour_of_day=0, num_clients=1.4012291857176276), 
+Row(day_of_week=4, hour_of_day=2, num_clients=1.4011489645958584), 
+Row(day_of_week=5, hour_of_day=23, num_clients=1.4053823152498932), 
+Row(day_of_week=5, hour_of_day=1, num_clients=1.402590728520038), 
+Row(day_of_week=5, hour_of_day=0, num_clients=1.4010382527988254), 
+Row(day_of_week=6, hour_of_day=23, num_clients=1.475576918073731), 
+Row(day_of_week=6, hour_of_day=22, num_clients=1.444813976205668), 
+Row(day_of_week=6, hour_of_day=2, num_clients=1.4236394379113688), 
+Row(day_of_week=7, hour_of_day=23, num_clients=1.522606766277207), 
+Row(day_of_week=7, hour_of_day=22, num_clients=1.5068176194011382), 
+Row(day_of_week=7, hour_of_day=0, num_clients=1.4993154284898547)]
+Average Time:14.980561256408691

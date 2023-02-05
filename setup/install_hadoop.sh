@@ -12,13 +12,13 @@ download__hadoop () {
 
 	## Export environmental variables.
 	echo 'export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64' >> ~/.bashrc
-	echo 'export HADOOP_INSTALL=/home/user/hadoop-2.7.7' >> ~/.bashrc
-	echo 'export PATH=$PATH:$HADOOP_INSTALL/bin' >> ~/.bashrc
-	echo 'export PATH=$PATH:$HADOOP_INSTALL/sbin' >> ~/.bashrc
-	echo 'export HADOOP_HOME=$HADOOP_INSTALL' >> ~/.bashrc
-	echo 'export HADOOP_COMMON_HOME=$HADOOP_INSTALL' >> ~/.bashrc
-	echo 'export HADOOP_HDFS_HOME=$HADOOP_INSTALL' >> ~/.bashrc
-	echo 'export HADOOP_CONF_DIR=$HADOOP_INSTALL/etc/hadoop' >> ~/.bashrc
+	echo 'export HADOOP_HOME=/home/user/hadoop-2.7.7' >> ~/.bashrc
+	echo 'export PATH=$PATH:$HADOOP_HOME/bin' >> ~/.bashrc
+	echo 'export PATH=$PATH:$HADOOP_HOME/sbin' >> ~/.bashrc
+	echo 'export HADOOP_HOME=$HADOOP_HOME' >> ~/.bashrc
+	echo 'export HADOOP_COMMON_HOME=$HADOOP_HOME' >> ~/.bashrc
+	echo 'export HADOOP_HDFS_HOME=$HADOOP_HOME' >> ~/.bashrc
+	echo 'export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop' >> ~/.bashrc
 
 	source ~/.bashrc
 

@@ -1,0 +1,4 @@
+Queyry 2:
+Number of executions: 10 
+Results: [Row(max_toll_fees_per_month=193.3, month=1, max_date=datetime.datetime(2022, 1, 31, 23, 59, 48)), Row(max_toll_fees_per_month=800.09, month=6, max_date=datetime.datetime(2022, 6, 30, 23, 59, 52)), Row(max_toll_fees_per_month=235.7, month=3, max_date=datetime.datetime(2022, 3, 31, 23, 59, 50)), Row(max_toll_fees_per_month=813.75, month=5, max_date=datetime.datetime(2022, 5, 31, 23, 59, 55)), Row(max_toll_fees_per_month=911.87, month=4, max_date=datetime.datetime(2022, 4, 30, 23, 59, 39)), Row(max_toll_fees_per_month=29.55, month=7, max_date=datetime.datetime(2022, 7, 1, 2, 59, 49)), Row(max_toll_fees_per_month=95.0, month=2, max_date=datetime.datetime(2022, 2, 28, 23, 59, 55))]
+Average Time:10.070417451858521

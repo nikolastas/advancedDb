@@ -1,0 +1,4 @@
+Queyry 1 DF:
+Number of executions: 1 
+Results: None
+Average Time:7.714359283447266
