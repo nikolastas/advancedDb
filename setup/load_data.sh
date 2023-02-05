@@ -20,3 +20,4 @@ hdfs dfs -mkdir taxis
 hdfs dfs -put taxis
 hdfs dfs -mkdir cities
 hdfs dfs -put cities
+hdfs dfs -put cities
